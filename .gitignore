@@ -1,0 +1,34 @@
+# Pixi
+.pixi/
+pixi.lock
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+
+# OS
+.DS_Store
+._*
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Large sequence files not needed for dashboard
+results/**/*.fna
+results/**/*.fasta
+results/**/*.dmnd
+
+# Intermediate pipeline directories
+results/*/bed_files/
+results/*/contigs/
+results/*/binomial/
+results/*/orf_extraction/
+results/*/temp/
+logs/

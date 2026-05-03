@@ -1,0 +1,526 @@
+hit_id	replicon	gene_name	i_eval	score	profile_cov	seq_cov	begin_match	end_match
+								
+hit_id	replicon	gene_name	hit_i_eval	hit_score	hit_profile_cov	hit_seq_cov	hit_begin_match	hit_end_match
+NZ_CP199307.1_2979816-2990453:._2	all_contigs	RM_Type_IIG__Type_IIG_3	2e-216	719.100	0.998	0.988	1	1010
+NZ_CM143122.1_219845-230482:._2	all_contigs	RM_Type_IIG__Type_IIG_3	4.2e-217	721.300	0.998	0.988	1	1010
+NZ_CM143117.1_19262-29899:._2	all_contigs	RM_Type_IIG__Type_IIG_3	4.2e-217	721.300	0.998	0.988	1	1010
+NZ_CP077754.1_1712170-1722807:._2	all_contigs	RM_Type_IIG__Type_IIG_3	4.2e-217	721.300	0.998	0.988	1	1010
+NZ_CM143123.1_1-9276:._6	all_contigs	RM_Type_IIG__Type_IIG_3	4.2e-217	721.300	0.998	0.988	1	1010
+NZ_CP077751.1_1700941-1711578:._2	all_contigs	RM_Type_IIG__Type_IIG_3	4.2e-217	721.300	0.998	0.988	1	1010
+NZ_CM143116.1_2524405-2535042:._7	all_contigs	RM_Type_IIG__Type_IIG_3	4.2e-217	721.300	0.998	0.988	1	1010
+NZ_OX596084.1_1719772-1730409:._2	all_contigs	RM_Type_IIG__Type_IIG_3	4.2e-217	721.300	0.998	0.988	1	1010
+NZ_LR134404.1_997179-1007786:._8	all_contigs	RM_Type_IIG__Type_IIG_FAM_0.einsi_trimmed	1.3e-123	412.000	0.837	0.988	10	966
+NC_015164.1_34583-45172:._4	all_contigs	RM_Type_IIG__Type_IIG_FAM_0.einsi_trimmed	3.3e-105	351.000	0.800	0.831	113	1064
+NC_015144.1_2100312-2110919:._1	all_contigs	RM_Type_IIG__Type_IIG_FAM_0.einsi_trimmed	1.3e-123	412.000	0.837	0.989	9	965
+NZ_CP114291.2_1703538-1714145:._6	all_contigs	RM_Type_IIG__Type_IIG_FAM_0.einsi_trimmed	1.2e-154	514.600	0.991	0.974	30	1233
+								
+								
+hit_id	replicon	gene_name	hit_i_eval	hit_score	hit_profile_cov	hit_seq_cov	hit_begin_match	hit_end_match
+NZ_LR134404.1_997179-1007786:._3	all_contigs	SanaTA__SanaA	6.5e-17	59.700	0.963	0.632	3	129
+NC_015144.1_2100312-2110919:._6	all_contigs	SanaTA__SanaA	6.5e-17	59.700	0.963	0.632	3	129
+NZ_CP034173.1_1138126-1148700:._12	all_contigs	SanaTA__SanaA	7.2e-05	20.700	0.866	0.471	12	124
+NZ_CP120354.1_48892-59487:._3	all_contigs	SanaTA__SanaA	6.5e-10	37.000	0.933	0.619	7	128
+NZ_LR134404.1_997179-1007786:._2	all_contigs	SanaTA__SanaT_1	2.4e-105	350.500	0.901	0.968	4	336
+NZ_CP146526.1_6816-17408:._13	all_contigs	SanaTA__SanaT_1	9.1e-67	223.600	0.692	0.989	1	264
+NC_015144.1_2100312-2110919:._7	all_contigs	SanaTA__SanaT_1	2.4e-105	350.500	0.901	0.968	4	336
+NZ_CP034173.1_1138126-1148700:._13	all_contigs	SanaTA__SanaT_1	5.8e-37	125.500	0.280	0.980	1	96
+NZ_CP044017.1_1-9654:._6	all_contigs	SanaTA__SanaT_1	5.5e-57	191.400	0.865	0.978	6	316
+NZ_CP120354.1_48892-59487:._4	all_contigs	SanaTA__SanaT_1	1.9e-37	127.100	0.283	0.920	1	103
+								
+								
+hit_id	replicon	gene_name	hit_i_eval	hit_score	hit_profile_cov	hit_seq_cov	hit_begin_match	hit_end_match
+NZ_LR134404.1_997179-1007786:._7	all_contigs	RM_Type_II__Type_II_MTases_FAM_14	6.2e-06	22.500	0.195	0.875	6	110
+NC_015144.1_2100312-2110919:._2	all_contigs	RM_Type_II__Type_II_MTases_FAM_14	6.2e-06	22.500	0.195	0.875	6	110
+NZ_OZ260103.1_4084383-4094978:._4	all_contigs	RM_Type_II__Type_II_MTases_FAM_2	1.7e-116	386.500	0.978	0.917	25	346
+NZ_CP114291.2_1703538-1714145:._5	all_contigs	RM_Type_II__Type_II_MTases_FAM_31	1.7e-12	44.100	0.474	0.929	14	289
+NZ_CP065589.1_4744455-4755017:._8	all_contigs	RM_Type_II__Type_II_MTases_FAM_4	1.5e-76	254.800	0.982	0.968	8	277
+NZ_CM148647.1_2391999-2402636:._2	all_contigs	RM_Type_II__Type_II_MTases_FAM_40	2.8e-05	20.700	0.301	0.469	29	148
+NZ_CM148689.1_3656431-3667026:._11	all_contigs	RM_Type_II__Type_II_MTases_FAM_40	3.2e-05	20.600	0.301	0.469	29	148
+NZ_CP119422.1_4788955-4799508:._3	all_contigs	RM_Type_II__Type_II_MTases_FAM_6	2.7e-11	40.400	0.270	0.602	62	217
+NZ_CP011318.1_3761958-3772556:._1	all_contigs	RM_Type_II__Type_II_REase25	5.9e-19	66.700	0.306	0.952	6	123
+NZ_OZ260103.1_4084383-4094978:._5	all_contigs	RM_Type_II__Type_II_REase27	9.1e-39	132.200	0.855	0.997	1	361
+NZ_CP023401.1_2656649-2667241:._1	all_contigs	RM_Type_II__Type_II_REase34	2.9e-22	76.900	0.229	0.798	3	164
+NZ_CP023402.1_2692148-2702740:._1	all_contigs	RM_Type_II__Type_II_REase34	2.9e-22	76.900	0.229	0.798	3	164
+NZ_CP023403.1_2692148-2702740:._1	all_contigs	RM_Type_II__Type_II_REase34	2.9e-22	76.900	0.229	0.798	3	164
+NZ_CP023404.1_2692148-2702740:._1	all_contigs	RM_Type_II__Type_II_REase34	2.9e-22	76.900	0.229	0.798	3	164
+NZ_CP121110.1_2169661-2180256:._1	all_contigs	RM_Type_II__Type_II_REase38	4e-44	148.600	0.620	0.980	6	439
+								
+								
+hit_id	replicon	gene_name	hit_i_eval	hit_score	hit_profile_cov	hit_seq_cov	hit_begin_match	hit_end_match
+NZ_LR134404.1_997179-1007786:._8	all_contigs	RM_Type_IIG__Type_IIG_FAM_0.einsi_trimmed	1.3e-123	412.000	0.837	0.988	10	966
+NC_015164.1_34583-45172:._4	all_contigs	RM_Type_IIG__Type_IIG_FAM_0.einsi_trimmed	3.3e-105	351.000	0.800	0.831	113	1064
+NC_015144.1_2100312-2110919:._1	all_contigs	RM_Type_IIG__Type_IIG_FAM_0.einsi_trimmed	1.3e-123	412.000	0.837	0.989	9	965
+NZ_CP114291.2_1703538-1714145:._6	all_contigs	RM_Type_IIG__Type_IIG_FAM_0.einsi_trimmed	1.2e-154	514.600	0.991	0.974	30	1233
+								
+								
+hit_id	replicon	gene_name	hit_i_eval	hit_score	hit_profile_cov	hit_seq_cov	hit_begin_match	hit_end_match
+NZ_CP110003.1_1-5567:._3	all_contigs	PrrC__EcoprrI	3.2e-157	522.200	0.958	0.996	1	514
+NZ_CP037428.1_20809-31371:._12	all_contigs	PrrC__EcoprrI	4.3e-17	60.400	0.736	0.397	52	376
+NZ_CP092371.1_10906-21471:._3	all_contigs	PrrC__EcoprrI	3.2e-157	522.200	0.958	0.996	1	514
+NZ_CP125998.1_20809-31371:._12	all_contigs	PrrC__EcoprrI	4.3e-17	60.400	0.736	0.397	52	376
+NZ_CP125988.1_20809-31371:._12	all_contigs	PrrC__EcoprrI	4.3e-17	60.400	0.736	0.397	52	376
+NZ_CP171010.1_321704-332272:._5	all_contigs	RM__Type_I_MTases_FAM_0	1.7e-173	575.700	0.990	0.982	7	558
+NZ_CM148647.1_2723775-2734409:._8	all_contigs	RM__Type_I_MTases_FAM_0	1.5e-167	556.100	0.996	0.996	1	508
+NZ_CP087585.1_3158408-3169009:._1	all_contigs	RM__Type_I_MTases_FAM_0	4.9e-123	409.300	0.715	1.000	1	382
+NZ_CP172273.1_2772056-2782690:._8	all_contigs	RM__Type_I_MTases_FAM_0	1.5e-167	556.100	0.996	0.996	1	508
+NZ_CM148639.1_2745888-2756492:._14	all_contigs	RM__Type_I_MTases_FAM_0	1.5e-167	556.100	0.996	0.996	1	508
+NZ_CP119422.1_4788955-4799508:._9	all_contigs	RM__Type_I_MTases_FAM_0	3.9e-145	482.200	0.842	0.943	52	963
+NZ_CP110003.1_1-5567:._5	all_contigs	RM__Type_I_REases_FAM_0.einsi_trimmed	3.9e-144	479.800	0.399	0.933	30	436
+NZ_CP092371.1_10906-21471:._1	all_contigs	RM__Type_I_REases_FAM_0.einsi_trimmed	3.9e-144	479.800	0.399	0.933	30	436
+NZ_CP039929.1_1273645-1284252:._8	all_contigs	RM__Type_I_REases_FAM_0.einsi_trimmed	1.6e-143	477.800	0.445	0.472	2	474
+NZ_CP118631.1_4648428-4659014:._8	all_contigs	RM__Type_I_REases_FAM_2.einsi_trimmed	3.2e-200	665.200	0.976	0.992	5	929
+NZ_CP110003.1_1-5567:._4	all_contigs	RM__Type_I_S_01	2e-60	202.500	0.588	0.987	1	388
+NZ_CP092371.1_10906-21471:._2	all_contigs	RM__Type_I_S_01	2e-60	202.500	0.588	0.987	1	388
+NZ_CP118631.1_4648428-4659014:._9	all_contigs	RM__Type_I_S_01	5.1e-68	227.600	0.788	0.963	5	603
+NZ_CP171010.1_321704-332272:._2	all_contigs	RM__Type_I_S_06	1.9e-64	215.900	0.739	0.990	3	411
+NZ_CM148647.1_2723775-2734409:._7	all_contigs	RM__Type_I_S_51	8.7e-25	84.600	0.360	0.911	7	179
+NZ_CM148647.1_2723775-2734409:._11	all_contigs	RM__Type_I_S_51	1.8e-42	142.900	0.466	0.916	7	225
+NZ_CP172273.1_2772056-2782690:._7	all_contigs	RM__Type_I_S_51	8.7e-25	84.600	0.360	0.911	7	179
+NZ_CP172273.1_2772056-2782690:._11	all_contigs	RM__Type_I_S_51	1.8e-42	142.900	0.466	0.916	7	225
+NZ_CM148639.1_2745888-2756492:._13	all_contigs	RM__Type_I_S_51	8.7e-25	84.600	0.360	0.911	7	179
+NZ_CP119422.1_4788955-4799508:._10	all_contigs	RM__Type_I_S_51	9.5e-93	308.700	0.834	0.979	8	429
+NZ_CP054141.1_36662-47269:._11	all_contigs	RM__Type_I_S_52	5.7e-37	125.300	0.587	0.809	62	446
+								
+								
+hit_id	replicon	gene_name	hit_i_eval	hit_score	hit_profile_cov	hit_seq_cov	hit_begin_match	hit_end_match
+NZ_CP171010.1_321704-332272:._5	all_contigs	RM__Type_I_MTases_FAM_0	1.7e-173	575.700	0.990	0.982	7	558
+NZ_CM148647.1_2723775-2734409:._8	all_contigs	RM__Type_I_MTases_FAM_0	1.5e-167	556.100	0.996	0.996	1	508
+NZ_CP087585.1_3158408-3169009:._1	all_contigs	RM__Type_I_MTases_FAM_0	4.9e-123	409.300	0.715	1.000	1	382
+NZ_CP172273.1_2772056-2782690:._8	all_contigs	RM__Type_I_MTases_FAM_0	1.5e-167	556.100	0.996	0.996	1	508
+NZ_CM148639.1_2745888-2756492:._14	all_contigs	RM__Type_I_MTases_FAM_0	1.5e-167	556.100	0.996	0.996	1	508
+NZ_CP119422.1_4788955-4799508:._9	all_contigs	RM__Type_I_MTases_FAM_0	3.9e-145	482.200	0.842	0.943	52	963
+NZ_CP110003.1_1-5567:._5	all_contigs	RM__Type_I_REases_FAM_0.einsi_trimmed	3.9e-144	479.800	0.399	0.933	30	436
+NZ_CP092371.1_10906-21471:._1	all_contigs	RM__Type_I_REases_FAM_0.einsi_trimmed	3.9e-144	479.800	0.399	0.933	30	436
+NZ_CP039929.1_1273645-1284252:._8	all_contigs	RM__Type_I_REases_FAM_0.einsi_trimmed	1.6e-143	477.800	0.445	0.472	2	474
+NZ_CP118631.1_4648428-4659014:._8	all_contigs	RM__Type_I_REases_FAM_2.einsi_trimmed	3.2e-200	665.200	0.976	0.992	5	929
+NZ_CP110003.1_1-5567:._4	all_contigs	RM__Type_I_S_01	2e-60	202.500	0.588	0.987	1	388
+NZ_CP092371.1_10906-21471:._2	all_contigs	RM__Type_I_S_01	2e-60	202.500	0.588	0.987	1	388
+NZ_CP118631.1_4648428-4659014:._9	all_contigs	RM__Type_I_S_01	5.1e-68	227.600	0.788	0.963	5	603
+NZ_CP171010.1_321704-332272:._2	all_contigs	RM__Type_I_S_06	1.9e-64	215.900	0.739	0.990	3	411
+NZ_CM148647.1_2723775-2734409:._7	all_contigs	RM__Type_I_S_51	8.7e-25	84.600	0.360	0.911	7	179
+NZ_CM148647.1_2723775-2734409:._11	all_contigs	RM__Type_I_S_51	1.8e-42	142.900	0.466	0.916	7	225
+NZ_CP172273.1_2772056-2782690:._7	all_contigs	RM__Type_I_S_51	8.7e-25	84.600	0.360	0.911	7	179
+NZ_CP172273.1_2772056-2782690:._11	all_contigs	RM__Type_I_S_51	1.8e-42	142.900	0.466	0.916	7	225
+NZ_CM148639.1_2745888-2756492:._13	all_contigs	RM__Type_I_S_51	8.7e-25	84.600	0.360	0.911	7	179
+NZ_CP119422.1_4788955-4799508:._10	all_contigs	RM__Type_I_S_51	9.5e-93	308.700	0.834	0.979	8	429
+NZ_CP054141.1_36662-47269:._11	all_contigs	RM__Type_I_S_52	5.7e-37	125.300	0.587	0.809	62	446
+								
+								
+hit_id	replicon	gene_name	hit_i_eval	hit_score	hit_profile_cov	hit_seq_cov	hit_begin_match	hit_end_match
+NZ_CP087585.1_3158408-3169009:._7	all_contigs	Menshen__NsnA	9.5e-111	368.200	0.919	0.951	15	364
+NZ_CP087585.1_3158408-3169009:._8	all_contigs	Menshen__NsnB	4.2e-84	280.700	0.881	0.983	1	338
+NZ_CP171010.1_321704-332272:._3	all_contigs	Menshen__NsnC_2512525018	5e-05	20.500	0.773	0.606	73	247
+NZ_CP036540.1_72561-83153:._5	all_contigs	Menshen__NsnC_2512525018	0.00092	16.400	0.814	0.661	64	256
+NZ_CP036547.1_5524-14930:._7	all_contigs	Menshen__NsnC_2512525018	0.00092	16.400	0.814	0.661	64	256
+NZ_CP087585.1_3158408-3169009:._9	all_contigs	Menshen__NsnC_2635923458	4e-78	260.200	1.000	0.997	1	301
+								
+								
+hit_id	replicon	gene_name	hit_i_eval	hit_score	hit_profile_cov	hit_seq_cov	hit_begin_match	hit_end_match
+NZ_CP033913.1_24170-34774:._8	all_contigs	Gabija__GajA	4.6e-89	297.400	0.828	0.840	1	505
+NZ_CP033916.1_37049-47653:._2	all_contigs	Gabija__GajA	4.6e-89	297.400	0.828	0.840	1	505
+NZ_CP033913.1_24170-34774:._7	all_contigs	Gabija__GajB_2	5.9e-50	168.000	0.737	0.931	24	619
+NZ_CP033916.1_37049-47653:._3	all_contigs	Gabija__GajB_2	5.9e-50	168.000	0.737	0.931	24	619
+								
+								
+hit_id	replicon	gene_name	hit_i_eval	hit_score	hit_profile_cov	hit_seq_cov	hit_begin_match	hit_end_match
+NC_015160.1_3554654-3565171:._8	all_contigs	Veles__VlsA1	1.9e-50	169.300	0.993	0.761	4	309
+NZ_LT906459.1_3554432-3565048:._9	all_contigs	Veles__VlsA1	1.9e-50	169.300	0.993	0.761	4	309
+NC_015160.1_3554654-3565171:._7	all_contigs	Veles__VlsB2	1.6e-129	429.800	0.938	0.984	4	368
+NZ_LT906459.1_3554432-3565048:._8	all_contigs	Veles__VlsB2	1.6e-129	429.800	0.938	0.984	4	368
+NZ_CP081299.1_1785944-1796431:._5	all_contigs	Veles__VlsC2	2e-16	58.000	0.557	0.572	4	82
+NZ_CP081299.1_7408552-7419153:._11	all_contigs	Veles__VlsC2	9.1e-16	55.900	0.564	0.576	4	83
+								
+								
+hit_id	replicon	gene_name	hit_i_eval	hit_score	hit_profile_cov	hit_seq_cov	hit_begin_match	hit_end_match
+NZ_CP104875.1_2250589-2261184:._9	all_contigs	DS-1__DS-1A	1.6e-34	117.000	0.782	0.823	44	331
+NZ_CP071547.1_2251581-2262176:._9	all_contigs	DS-1__DS-1A	1.6e-34	117.000	0.782	0.823	44	331
+NZ_CM148636.1_2123055-2133650:._9	all_contigs	DS-1__DS-1A	1.1e-34	117.600	0.782	0.823	44	331
+NZ_CP104875.1_2250589-2261184:._8	all_contigs	DS-1__DS-1B	2.1e-70	235.400	0.990	0.962	1	382
+NZ_CP071547.1_2251581-2262176:._8	all_contigs	DS-1__DS-1B	2.1e-70	235.400	0.990	0.962	1	382
+NZ_CM148636.1_2123055-2133650:._8	all_contigs	DS-1__DS-1B	1.2e-67	226.300	0.978	0.957	3	382
+								
+								
+hit_id	replicon	gene_name	hit_i_eval	hit_score	hit_profile_cov	hit_seq_cov	hit_begin_match	hit_end_match
+NZ_CP104875.1_2250589-2261184:._10	all_contigs	AbiZ__AbiZ	6.6e-39	131.900	0.951	0.932	22	417
+NZ_CP071547.1_2251581-2262176:._10	all_contigs	AbiZ__AbiZ	6.6e-39	131.900	0.951	0.932	22	417
+NZ_CM148636.1_2123055-2133650:._10	all_contigs	AbiZ__AbiZ	1.1e-36	124.500	0.948	0.929	23	417
+								
+								
+hit_id	replicon	gene_name	hit_i_eval	hit_score	hit_profile_cov	hit_seq_cov	hit_begin_match	hit_end_match
+NZ_CM148643.1_3210785-3221380:._1	all_contigs	CBASS__Cyclase_II	3e-49	165.500	0.911	0.871	9	371
+NZ_CM148673.1_2105830-2116425:._12	all_contigs	CBASS__Cyclase_II	5e-49	164.800	0.911	0.871	9	371
+NZ_CM148634.1_2194474-2205048:._12	all_contigs	CBASS__Cyclase_II	6.9e-48	161.000	0.864	0.788	15	323
+NZ_CP034173.1_1138126-1148700:._6	all_contigs	CBASS__Cyclase_II	9.5e-61	203.300	0.973	0.962	1	303
+NZ_CM148644.1_2122378-2132973:._6	all_contigs	CBASS__Cyclase_II	4.4e-17	59.800	0.902	0.970	9	327
+NZ_CP016374.1_1840671-1851227:._9	all_contigs	CBASS__Cyclase_II	1.2e-60	203.000	0.979	0.968	1	305
+NZ_CP022986.1_896566-907170:._6	all_contigs	CBASS__Cyclase_SMODS	3.5e-45	151.700	0.976	0.368	1	160
+NZ_CP118631.1_4648428-4659014:._2	all_contigs	CBASS__2TM_5	3.9e-28	95.700	0.954	0.971	4	171
+NZ_CP022986.1_896566-907170:._5	all_contigs	CBASS__2TM_Gros	2.8e-42	143.000	0.755	0.968	5	184
+NZ_CM148634.1_2194474-2205048:._11	all_contigs	CBASS__Effector_2TM_Sa_NUDIX	6.1e-66	219.600	0.995	0.804	45	249
+NZ_CM148644.1_2122378-2132973:._9	all_contigs	CBASS__Effector_2TM_Sa_NUDIX	3.2e-65	217.300	0.990	0.726	67	265
+NZ_CP034173.1_1138126-1148700:._7	all_contigs	CBASS__Phospholipase	3.2e-88	293.700	0.933	0.991	1	333
+NZ_CP016374.1_1840671-1851227:._10	all_contigs	CBASS__Phospholipase	2e-87	291.100	0.933	0.991	1	333
+NZ_CM148643.1_3210785-3221380:._4	all_contigs	CBASS__Sensing_SAVED	1.4e-42	143.300	0.995	0.504	183	372
+NZ_CM148673.1_2105830-2116425:._9	all_contigs	CBASS__Sensing_SAVED	1.4e-42	143.300	0.995	0.504	183	372
+NZ_CP033918.1_3313892-3324232:._10	all_contigs	CBASS__AG_E1_ThiF	3.3e-40	135.600	0.934	0.634	119	354
+NZ_CP033918.1_3313892-3324232:._11	all_contigs	CBASS__AG_E1_ThiF	9.2e-31	104.600	0.639	0.439	122	284
+NZ_AP029022.1_2742988-2753550:._5	all_contigs	CBASS__AG_E1_ThiF	6e-15	52.900	0.525	0.329	174	300
+NZ_CM148643.1_3210785-3221380:._2	all_contigs	CBASS__E2	7.6e-38	127.900	0.801	0.954	3	147
+NZ_CM148673.1_2105830-2116425:._11	all_contigs	CBASS__E2	7.8e-38	127.800	0.801	0.954	3	147
+NZ_CM148634.1_2194474-2205048:._13	all_contigs	CBASS__E2	2.3e-22	77.500	0.795	0.900	13	147
+NZ_CP034173.1_1138126-1148700:._5	all_contigs	CBASS__E2_II	4.7e-60	200.300	0.912	0.920	1	196
+NZ_CP016374.1_1840671-1851227:._8	all_contigs	CBASS__E2_II	2e-56	188.400	0.907	0.903	1	195
+NZ_CM148644.1_2122378-2132973:._8	all_contigs	CBASS__TRIP13	2e-96	320.400	0.974	0.990	2	293
+NZ_CM148644.1_2122378-2132973:._7	all_contigs	CBASS__bacHORMA_1	7.6e-50	166.700	1.000	0.994	1	169
+								
+								
+hit_id	replicon	gene_name	hit_i_eval	hit_score	hit_profile_cov	hit_seq_cov	hit_begin_match	hit_end_match
+NZ_CP118631.1_4648428-4659014:._2	all_contigs	CBASS__2TM_5	3.9e-28	95.700	0.954	0.971	4	171
+NZ_CP022986.1_896566-907170:._5	all_contigs	CBASS__2TM_Gros	2.8e-42	143.000	0.755	0.968	5	184
+NZ_CM148643.1_3210785-3221380:._1	all_contigs	CBASS__Cyclase_II	3e-49	165.500	0.911	0.871	9	371
+NZ_CM148673.1_2105830-2116425:._12	all_contigs	CBASS__Cyclase_II	5e-49	164.800	0.911	0.871	9	371
+NZ_CM148634.1_2194474-2205048:._12	all_contigs	CBASS__Cyclase_II	6.9e-48	161.000	0.864	0.788	15	323
+NZ_CP034173.1_1138126-1148700:._6	all_contigs	CBASS__Cyclase_II	9.5e-61	203.300	0.973	0.962	1	303
+NZ_CM148644.1_2122378-2132973:._6	all_contigs	CBASS__Cyclase_II	4.4e-17	59.800	0.902	0.970	9	327
+NZ_CP016374.1_1840671-1851227:._9	all_contigs	CBASS__Cyclase_II	1.2e-60	203.000	0.979	0.968	1	305
+NZ_CP022986.1_896566-907170:._6	all_contigs	CBASS__Cyclase_SMODS	3.5e-45	151.700	0.976	0.368	1	160
+NZ_CM148634.1_2194474-2205048:._11	all_contigs	CBASS__Effector_2TM_Sa_NUDIX	6.1e-66	219.600	0.995	0.804	45	249
+NZ_CM148644.1_2122378-2132973:._9	all_contigs	CBASS__Effector_2TM_Sa_NUDIX	3.2e-65	217.300	0.990	0.726	67	265
+NZ_CP034173.1_1138126-1148700:._7	all_contigs	CBASS__Phospholipase	3.2e-88	293.700	0.933	0.991	1	333
+NZ_CP016374.1_1840671-1851227:._10	all_contigs	CBASS__Phospholipase	2e-87	291.100	0.933	0.991	1	333
+NZ_CM148643.1_3210785-3221380:._4	all_contigs	CBASS__Sensing_SAVED	1.4e-42	143.300	0.995	0.504	183	372
+NZ_CM148673.1_2105830-2116425:._9	all_contigs	CBASS__Sensing_SAVED	1.4e-42	143.300	0.995	0.504	183	372
+								
+								
+hit_id	replicon	gene_name	hit_i_eval	hit_score	hit_profile_cov	hit_seq_cov	hit_begin_match	hit_end_match
+NZ_CP118631.1_4648428-4659014:._2	all_contigs	CBASS__2TM_5	3.9e-28	95.700	0.954	0.971	4	171
+NZ_CP022986.1_896566-907170:._5	all_contigs	CBASS__2TM_Gros	2.8e-42	143.000	0.755	0.968	5	184
+NZ_CP033918.1_3313892-3324232:._10	all_contigs	CBASS__AG_E1_ThiF	3.3e-40	135.600	0.934	0.634	119	354
+NZ_CP033918.1_3313892-3324232:._11	all_contigs	CBASS__AG_E1_ThiF	9.2e-31	104.600	0.639	0.439	122	284
+NZ_AP029022.1_2742988-2753550:._5	all_contigs	CBASS__AG_E1_ThiF	6e-15	52.900	0.525	0.329	174	300
+NZ_CM148643.1_3210785-3221380:._1	all_contigs	CBASS__Cyclase_II	3e-49	165.500	0.911	0.871	9	371
+NZ_CM148673.1_2105830-2116425:._12	all_contigs	CBASS__Cyclase_II	5e-49	164.800	0.911	0.871	9	371
+NZ_CM148634.1_2194474-2205048:._12	all_contigs	CBASS__Cyclase_II	6.9e-48	161.000	0.864	0.788	15	323
+NZ_CP034173.1_1138126-1148700:._6	all_contigs	CBASS__Cyclase_II	9.5e-61	203.300	0.973	0.962	1	303
+NZ_CM148644.1_2122378-2132973:._6	all_contigs	CBASS__Cyclase_II	4.4e-17	59.800	0.902	0.970	9	327
+NZ_CP016374.1_1840671-1851227:._9	all_contigs	CBASS__Cyclase_II	1.2e-60	203.000	0.979	0.968	1	305
+NZ_CP022986.1_896566-907170:._6	all_contigs	CBASS__Cyclase_SMODS	3.5e-45	151.700	0.976	0.368	1	160
+NZ_CM148643.1_3210785-3221380:._2	all_contigs	CBASS__E2	7.6e-38	127.900	0.801	0.954	3	147
+NZ_CM148673.1_2105830-2116425:._11	all_contigs	CBASS__E2	7.8e-38	127.800	0.801	0.954	3	147
+NZ_CM148634.1_2194474-2205048:._13	all_contigs	CBASS__E2	2.3e-22	77.500	0.795	0.900	13	147
+NZ_CP034173.1_1138126-1148700:._5	all_contigs	CBASS__E2_II	4.7e-60	200.300	0.912	0.920	1	196
+NZ_CP016374.1_1840671-1851227:._8	all_contigs	CBASS__E2_II	2e-56	188.400	0.907	0.903	1	195
+NZ_CM148634.1_2194474-2205048:._11	all_contigs	CBASS__Effector_2TM_Sa_NUDIX	6.1e-66	219.600	0.995	0.804	45	249
+NZ_CM148644.1_2122378-2132973:._9	all_contigs	CBASS__Effector_2TM_Sa_NUDIX	3.2e-65	217.300	0.990	0.726	67	265
+NZ_CP034173.1_1138126-1148700:._7	all_contigs	CBASS__Phospholipase	3.2e-88	293.700	0.933	0.991	1	333
+NZ_CP016374.1_1840671-1851227:._10	all_contigs	CBASS__Phospholipase	2e-87	291.100	0.933	0.991	1	333
+NZ_CM148643.1_3210785-3221380:._4	all_contigs	CBASS__Sensing_SAVED	1.4e-42	143.300	0.995	0.504	183	372
+NZ_CM148673.1_2105830-2116425:._9	all_contigs	CBASS__Sensing_SAVED	1.4e-42	143.300	0.995	0.504	183	372
+								
+								
+hit_id	replicon	gene_name	hit_i_eval	hit_score	hit_profile_cov	hit_seq_cov	hit_begin_match	hit_end_match
+NZ_CP118631.1_4648428-4659014:._2	all_contigs	CBASS__2TM_5	3.9e-28	95.700	0.954	0.971	4	171
+NZ_CP022986.1_896566-907170:._5	all_contigs	CBASS__2TM_Gros	2.8e-42	143.000	0.755	0.968	5	184
+NZ_CM148643.1_3210785-3221380:._1	all_contigs	CBASS__Cyclase_II	3e-49	165.500	0.911	0.871	9	371
+NZ_CM148673.1_2105830-2116425:._12	all_contigs	CBASS__Cyclase_II	5e-49	164.800	0.911	0.871	9	371
+NZ_CM148634.1_2194474-2205048:._12	all_contigs	CBASS__Cyclase_II	6.9e-48	161.000	0.864	0.788	15	323
+NZ_CP034173.1_1138126-1148700:._6	all_contigs	CBASS__Cyclase_II	9.5e-61	203.300	0.973	0.962	1	303
+NZ_CM148644.1_2122378-2132973:._6	all_contigs	CBASS__Cyclase_II	4.4e-17	59.800	0.902	0.970	9	327
+NZ_CP016374.1_1840671-1851227:._9	all_contigs	CBASS__Cyclase_II	1.2e-60	203.000	0.979	0.968	1	305
+NZ_CP022986.1_896566-907170:._6	all_contigs	CBASS__Cyclase_SMODS	3.5e-45	151.700	0.976	0.368	1	160
+NZ_CM148634.1_2194474-2205048:._11	all_contigs	CBASS__Effector_2TM_Sa_NUDIX	6.1e-66	219.600	0.995	0.804	45	249
+NZ_CM148644.1_2122378-2132973:._9	all_contigs	CBASS__Effector_2TM_Sa_NUDIX	3.2e-65	217.300	0.990	0.726	67	265
+NZ_CP034173.1_1138126-1148700:._7	all_contigs	CBASS__Phospholipase	3.2e-88	293.700	0.933	0.991	1	333
+NZ_CP016374.1_1840671-1851227:._10	all_contigs	CBASS__Phospholipase	2e-87	291.100	0.933	0.991	1	333
+NZ_CM148643.1_3210785-3221380:._4	all_contigs	CBASS__Sensing_SAVED	1.4e-42	143.300	0.995	0.504	183	372
+NZ_CM148673.1_2105830-2116425:._9	all_contigs	CBASS__Sensing_SAVED	1.4e-42	143.300	0.995	0.504	183	372
+NZ_CM148644.1_2122378-2132973:._8	all_contigs	CBASS__TRIP13	2e-96	320.400	0.974	0.990	2	293
+NZ_CM148644.1_2122378-2132973:._7	all_contigs	CBASS__bacHORMA_1	7.6e-50	166.700	1.000	0.994	1	169
+								
+								
+hit_id	replicon	gene_name	hit_i_eval	hit_score	hit_profile_cov	hit_seq_cov	hit_begin_match	hit_end_match
+NZ_CP118631.1_4648428-4659014:._1	all_contigs	Pycsar__AG_cyclase	6.2e-27	92.200	0.388	0.814	32	171
+NZ_CP118631.1_4648428-4659014:._2	all_contigs	CBASS__2TM_5	3.9e-28	95.700	0.954	0.971	4	171
+NZ_CP022986.1_896566-907170:._5	all_contigs	CBASS__2TM_Gros	2.8e-42	143.000	0.755	0.968	5	184
+NZ_CM148634.1_2194474-2205048:._11	all_contigs	CBASS__Effector_2TM_Sa_NUDIX	6.1e-66	219.600	0.995	0.804	45	249
+NZ_CM148644.1_2122378-2132973:._9	all_contigs	CBASS__Effector_2TM_Sa_NUDIX	3.2e-65	217.300	0.990	0.726	67	265
+NZ_CP034173.1_1138126-1148700:._7	all_contigs	CBASS__Phospholipase	3.2e-88	293.700	0.933	0.991	1	333
+NZ_CP016374.1_1840671-1851227:._10	all_contigs	CBASS__Phospholipase	2e-87	291.100	0.933	0.991	1	333
+NZ_CM148643.1_3210785-3221380:._4	all_contigs	CBASS__Sensing_SAVED	1.4e-42	143.300	0.995	0.504	183	372
+NZ_CM148673.1_2105830-2116425:._9	all_contigs	CBASS__Sensing_SAVED	1.4e-42	143.300	0.995	0.504	183	372
+NZ_CP033918.1_3313892-3324232:._10	all_contigs	CBASS__AG_E1_ThiF	3.3e-40	135.600	0.934	0.634	119	354
+NZ_CP033918.1_3313892-3324232:._11	all_contigs	CBASS__AG_E1_ThiF	9.2e-31	104.600	0.639	0.439	122	284
+NZ_AP029022.1_2742988-2753550:._5	all_contigs	CBASS__AG_E1_ThiF	6e-15	52.900	0.525	0.329	174	300
+NZ_CM148643.1_3210785-3221380:._2	all_contigs	CBASS__E2	7.6e-38	127.900	0.801	0.954	3	147
+NZ_CM148673.1_2105830-2116425:._11	all_contigs	CBASS__E2	7.8e-38	127.800	0.801	0.954	3	147
+NZ_CM148634.1_2194474-2205048:._13	all_contigs	CBASS__E2	2.3e-22	77.500	0.795	0.900	13	147
+NZ_CP034173.1_1138126-1148700:._5	all_contigs	CBASS__E2_II	4.7e-60	200.300	0.912	0.920	1	196
+NZ_CP016374.1_1840671-1851227:._8	all_contigs	CBASS__E2_II	2e-56	188.400	0.907	0.903	1	195
+NZ_CM148644.1_2122378-2132973:._8	all_contigs	CBASS__TRIP13	2e-96	320.400	0.974	0.990	2	293
+NZ_CM148644.1_2122378-2132973:._7	all_contigs	CBASS__bacHORMA_1	7.6e-50	166.700	1.000	0.994	1	169
+								
+								
+hit_id	replicon	gene_name	hit_i_eval	hit_score	hit_profile_cov	hit_seq_cov	hit_begin_match	hit_end_match
+NZ_CP072230.1_55830-66425:._9	all_contigs	MazEF__MazE	5e-07	27.300	0.550	0.530	2	45
+NZ_CP072253.1_51844-62439:._9	all_contigs	MazEF__MazE	5e-07	27.300	0.550	0.530	2	45
+NZ_CP069564.1_87419-98014:._8	all_contigs	MazEF__MazE	5e-07	27.300	0.550	0.530	2	45
+NZ_CP143942.1_80606-91201:._9	all_contigs	MazEF__MazE	5e-07	27.300	0.550	0.530	2	45
+NZ_CP072219.1_51842-62437:._9	all_contigs	MazEF__MazE	5e-07	27.300	0.550	0.530	2	45
+NZ_CP072233.1_55833-66428:._9	all_contigs	MazEF__MazE	5e-07	27.300	0.550	0.530	2	45
+NZ_CP072238.1_51863-62458:._9	all_contigs	MazEF__MazE	5e-07	27.300	0.550	0.530	2	45
+NZ_CP072223.1_86752-97347:._8	all_contigs	MazEF__MazE	5e-07	27.300	0.550	0.530	2	45
+NZ_CP103120.1_40675-51270:._4	all_contigs	MazEF__MazE	5e-07	27.300	0.550	0.530	2	45
+NZ_CP072211.1_51838-62433:._9	all_contigs	MazEF__MazE	5e-07	27.300	0.550	0.530	2	45
+NZ_AP019726.1_81904-92499:._9	all_contigs	MazEF__MazE	5e-07	27.300	0.550	0.530	2	45
+NZ_CP131534.1_3163299-3173894:._9	all_contigs	MazEF__MazE	5e-07	27.300	0.550	0.530	2	45
+NZ_CP072228.1_51839-62434:._9	all_contigs	MazEF__MazE	5e-07	27.300	0.550	0.530	2	45
+NZ_CP072241.1_51837-62432:._9	all_contigs	MazEF__MazE	5e-07	27.300	0.550	0.530	2	45
+NZ_CP072245.1_55835-66430:._9	all_contigs	MazEF__MazE	5e-07	27.300	0.550	0.530	2	45
+NZ_CP081905.1_30585-41180:._8	all_contigs	MazEF__MazE	5e-07	27.300	0.550	0.530	2	45
+NZ_CP143953.1_1-10201:._8	all_contigs	MazEF__MazE	5e-07	27.300	0.550	0.530	2	45
+NZ_CP081907.1_47128-57723:._8	all_contigs	MazEF__MazE	5e-07	27.300	0.550	0.530	2	45
+NZ_CP143950.1_88416-99011:._9	all_contigs	MazEF__MazE	5e-07	27.300	0.550	0.530	2	45
+NZ_CP072230.1_55830-66425:._10	all_contigs	MazEF__MazF	3.2e-15	53.600	0.829	0.860	7	98
+NZ_CP072253.1_51844-62439:._10	all_contigs	MazEF__MazF	3.2e-15	53.600	0.829	0.860	7	98
+NZ_CP069564.1_87419-98014:._7	all_contigs	MazEF__MazF	3.2e-15	53.600	0.829	0.860	7	98
+NZ_CP143942.1_80606-91201:._10	all_contigs	MazEF__MazF	3.2e-15	53.600	0.829	0.860	7	98
+NZ_CP072219.1_51842-62437:._10	all_contigs	MazEF__MazF	3.2e-15	53.600	0.829	0.860	7	98
+NZ_CP072233.1_55833-66428:._10	all_contigs	MazEF__MazF	3.2e-15	53.600	0.829	0.860	7	98
+NZ_CP072238.1_51863-62458:._10	all_contigs	MazEF__MazF	3.2e-15	53.600	0.829	0.860	7	98
+NZ_CP072223.1_86752-97347:._7	all_contigs	MazEF__MazF	3.2e-15	53.600	0.829	0.860	7	98
+NZ_CP103120.1_40675-51270:._3	all_contigs	MazEF__MazF	3.4e-12	43.900	0.604	0.872	7	74
+NZ_CP072211.1_51838-62433:._10	all_contigs	MazEF__MazF	3.2e-15	53.600	0.829	0.860	7	98
+NZ_AP019726.1_81904-92499:._10	all_contigs	MazEF__MazF	3.2e-15	53.600	0.829	0.860	7	98
+NZ_CP131534.1_3163299-3173894:._10	all_contigs	MazEF__MazF	3.2e-15	53.600	0.829	0.860	7	98
+NZ_CP072228.1_51839-62434:._10	all_contigs	MazEF__MazF	3.2e-15	53.600	0.829	0.860	7	98
+NZ_CP072241.1_51837-62432:._10	all_contigs	MazEF__MazF	3.2e-15	53.600	0.829	0.860	7	98
+NZ_CP072245.1_55835-66430:._10	all_contigs	MazEF__MazF	3.2e-15	53.600	0.829	0.860	7	98
+NZ_CP081905.1_30585-41180:._7	all_contigs	MazEF__MazF	3.2e-15	53.600	0.829	0.860	7	98
+NZ_CP143953.1_1-10201:._7	all_contigs	MazEF__MazF	3.2e-15	53.600	0.829	0.860	7	98
+NZ_CP081907.1_47128-57723:._7	all_contigs	MazEF__MazF	3.2e-15	53.600	0.829	0.860	7	98
+NZ_CP143950.1_88416-99011:._10	all_contigs	MazEF__MazF	3.2e-15	53.600	0.829	0.860	7	98
+								
+hit_id	replicon	gene_name	hit_i_eval	hit_score	hit_profile_cov	hit_seq_cov	hit_begin_match	hit_end_match
+NZ_CP140570.1_1595159-1605754:._2	all_contigs	Lamassu-Fam__LmuA_effector_Cap4_nuclease	3.4e-57	192.100	0.989	0.992	1	362
+NZ_CP143637.1_150213-160817:._8	all_contigs	Lamassu-Fam__LmuA_effector_Cap4_nuclease	9.6e-58	193.900	0.959	0.961	11	352
+NZ_CP033918.1_3313892-3324232:._3	all_contigs	Lamassu-Fam__LmuB_DS-30D	2e-121	404.200	0.998	0.988	1	571
+NZ_CP140570.1_1595159-1605754:._3	all_contigs	Lamassu-Fam__LmuB_SMC_Cap4_nuclease	5.4e-145	481.500	0.993	0.979	1	563
+NZ_CP143637.1_150213-160817:._9	all_contigs	Lamassu-Fam__LmuB_SMC_Cap4_nuclease	5.1e-137	455.200	0.988	0.996	1	566
+NZ_CP147988.1_142083-152681:._14	all_contigs	Lamassu-Fam__LmuB_SMC_Lipase	7.8e-190	629.800	0.989	0.937	9	652
+NZ_CM148686.1_2917064-2927656:._9	all_contigs	Lamassu-Fam__LmuB_SMC_Lipase	5.9e-35	118.100	0.764	0.766	2	503
+NZ_CP179925.1_611886-623561:._7	all_contigs	Lamassu-Fam__LmuB_SMC_Mrr	1.7e-05	21.100	0.210	0.224	349	473
+NZ_CP179925.1_3024398-3036073:._7	all_contigs	Lamassu-Fam__LmuB_SMC_Mrr	1.7e-05	21.100	0.210	0.224	349	473
+NC_009614.1_611886-623561:._7	all_contigs	Lamassu-Fam__LmuB_SMC_Mrr	1.7e-05	21.100	0.210	0.224	349	473
+NC_009614.1_2958343-2970018:._7	all_contigs	Lamassu-Fam__LmuB_SMC_Mrr	1.7e-05	21.100	0.210	0.224	349	473
+NZ_CM148639.1_2178787-2189382:._9	all_contigs	Lamassu-Fam__LmuB_SMC_Mrr	5.3e-144	478.600	0.993	0.982	5	613
+NZ_CP192719.1_483286-494961:._5	all_contigs	Lamassu-Fam__LmuB_SMC_Mrr	1.7e-05	21.100	0.210	0.224	349	473
+NZ_OX030782.1_4641479-4652074:._8	all_contigs	Lamassu-Fam__LmuB_SMC_Mrr	7.2e-156	517.800	0.995	0.990	6	623
+NZ_CP033918.1_3313892-3324232:._4	all_contigs	Lamassu-Fam__LmuC_DS-30C	1e-15	55.100	0.987	0.963	2	80
+NZ_CP147988.1_142083-152681:._13	all_contigs	Lamassu-Fam__LmuC_acc_Lipase	4.6e-33	111.700	0.929	0.898	2	159
+NZ_CM148639.1_2178787-2189382:._10	all_contigs	Lamassu-Fam__LmuC_acc_Mrr	1.4e-45	152.600	0.942	0.902	9	156
+NZ_OX030782.1_4641479-4652074:._9	all_contigs	Lamassu-Fam__LmuC_acc_Mrr	2.8e-51	171.100	0.968	0.899	6	156
+NZ_CP147988.1_142083-152681:._12	all_contigs	Lamassu-Fam__LmuA_effector_Lipase	1.5e-81	272.300	0.968	0.961	10	401
+NZ_CM148639.1_2178787-2189382:._11	all_contigs	Lamassu-Fam__LmuA_effector_Mrr	9.2e-20	69.300	0.193	0.970	1	65
+NZ_CP033918.1_3313892-3324232:._5	all_contigs	Lamassu-Fam__LmuA_effector_Mrr	2.4e-05	21.900	0.289	0.296	18	107
+NZ_OX030782.1_4641479-4652074:._10	all_contigs	Lamassu-Fam__LmuA_effector_Mrr	1.8e-100	334.600	0.970	0.925	27	359
+								
+								
+hit_id	replicon	gene_name	hit_i_eval	hit_score	hit_profile_cov	hit_seq_cov	hit_begin_match	hit_end_match
+NZ_CP033918.1_3313892-3324232:._3	all_contigs	Lamassu-Fam__LmuB_DS-30D	2e-121	404.200	0.998	0.988	1	571
+NZ_CP140570.1_1595159-1605754:._3	all_contigs	Lamassu-Fam__LmuB_SMC_Cap4_nuclease	5.4e-145	481.500	0.993	0.979	1	563
+NZ_CP143637.1_150213-160817:._9	all_contigs	Lamassu-Fam__LmuB_SMC_Cap4_nuclease	5.1e-137	455.200	0.988	0.996	1	566
+NZ_CP147988.1_142083-152681:._14	all_contigs	Lamassu-Fam__LmuB_SMC_Lipase	7.8e-190	629.800	0.989	0.937	9	652
+NZ_CM148686.1_2917064-2927656:._9	all_contigs	Lamassu-Fam__LmuB_SMC_Lipase	5.9e-35	118.100	0.764	0.766	2	503
+NZ_CP179925.1_611886-623561:._7	all_contigs	Lamassu-Fam__LmuB_SMC_Mrr	1.7e-05	21.100	0.210	0.224	349	473
+NZ_CP179925.1_3024398-3036073:._7	all_contigs	Lamassu-Fam__LmuB_SMC_Mrr	1.7e-05	21.100	0.210	0.224	349	473
+NC_009614.1_611886-623561:._7	all_contigs	Lamassu-Fam__LmuB_SMC_Mrr	1.7e-05	21.100	0.210	0.224	349	473
+NC_009614.1_2958343-2970018:._7	all_contigs	Lamassu-Fam__LmuB_SMC_Mrr	1.7e-05	21.100	0.210	0.224	349	473
+NZ_CM148639.1_2178787-2189382:._9	all_contigs	Lamassu-Fam__LmuB_SMC_Mrr	5.3e-144	478.600	0.993	0.982	5	613
+NZ_CP192719.1_483286-494961:._5	all_contigs	Lamassu-Fam__LmuB_SMC_Mrr	1.7e-05	21.100	0.210	0.224	349	473
+NZ_OX030782.1_4641479-4652074:._8	all_contigs	Lamassu-Fam__LmuB_SMC_Mrr	7.2e-156	517.800	0.995	0.990	6	623
+NZ_CP140570.1_1595159-1605754:._2	all_contigs	Lamassu-Fam__LmuA_effector_Cap4_nuclease	3.4e-57	192.100	0.989	0.992	1	362
+NZ_CP143637.1_150213-160817:._8	all_contigs	Lamassu-Fam__LmuA_effector_Cap4_nuclease	9.6e-58	193.900	0.959	0.961	11	352
+NZ_CP147988.1_142083-152681:._12	all_contigs	Lamassu-Fam__LmuA_effector_Lipase	1.5e-81	272.300	0.968	0.961	10	401
+NZ_CM148639.1_2178787-2189382:._11	all_contigs	Lamassu-Fam__LmuA_effector_Mrr	9.2e-20	69.300	0.193	0.970	1	65
+NZ_CP033918.1_3313892-3324232:._5	all_contigs	Lamassu-Fam__LmuA_effector_Mrr	2.4e-05	21.900	0.289	0.296	18	107
+NZ_OX030782.1_4641479-4652074:._10	all_contigs	Lamassu-Fam__LmuA_effector_Mrr	1.8e-100	334.600	0.970	0.925	27	359
+NZ_CP033918.1_3313892-3324232:._4	all_contigs	Lamassu-Fam__LmuC_DS-30C	1e-15	55.100	0.987	0.963	2	80
+NZ_CP147988.1_142083-152681:._13	all_contigs	Lamassu-Fam__LmuC_acc_Lipase	4.6e-33	111.700	0.929	0.898	2	159
+NZ_CM148639.1_2178787-2189382:._10	all_contigs	Lamassu-Fam__LmuC_acc_Mrr	1.4e-45	152.600	0.942	0.902	9	156
+NZ_OX030782.1_4641479-4652074:._9	all_contigs	Lamassu-Fam__LmuC_acc_Mrr	2.8e-51	171.100	0.968	0.899	6	156
+								
+hit_id	replicon	gene_name	hit_i_eval	hit_score	hit_profile_cov	hit_seq_cov	hit_begin_match	hit_end_match
+NZ_CP147988.1_142083-152681:._12	all_contigs	Lamassu-Fam__LmuA_effector_Lipase	1.5e-81	272.300	0.968	0.961	10	401
+NZ_CP140570.1_1595159-1605754:._3	all_contigs	Lamassu-Fam__LmuB_SMC_Cap4_nuclease	5.4e-145	481.500	0.993	0.979	1	563
+NZ_CP143637.1_150213-160817:._9	all_contigs	Lamassu-Fam__LmuB_SMC_Cap4_nuclease	5.1e-137	455.200	0.988	0.996	1	566
+NZ_CP147988.1_142083-152681:._14	all_contigs	Lamassu-Fam__LmuB_SMC_Lipase	7.8e-190	629.800	0.989	0.937	9	652
+NZ_CM148686.1_2917064-2927656:._9	all_contigs	Lamassu-Fam__LmuB_SMC_Lipase	5.9e-35	118.100	0.764	0.766	2	503
+NZ_CP179925.1_611886-623561:._7	all_contigs	Lamassu-Fam__LmuB_SMC_Mrr	1.7e-05	21.100	0.210	0.224	349	473
+NZ_CP179925.1_3024398-3036073:._7	all_contigs	Lamassu-Fam__LmuB_SMC_Mrr	1.7e-05	21.100	0.210	0.224	349	473
+NC_009614.1_611886-623561:._7	all_contigs	Lamassu-Fam__LmuB_SMC_Mrr	1.7e-05	21.100	0.210	0.224	349	473
+NC_009614.1_2958343-2970018:._7	all_contigs	Lamassu-Fam__LmuB_SMC_Mrr	1.7e-05	21.100	0.210	0.224	349	473
+NZ_CM148639.1_2178787-2189382:._9	all_contigs	Lamassu-Fam__LmuB_SMC_Mrr	5.3e-144	478.600	0.993	0.982	5	613
+NZ_CP192719.1_483286-494961:._5	all_contigs	Lamassu-Fam__LmuB_SMC_Mrr	1.7e-05	21.100	0.210	0.224	349	473
+NZ_OX030782.1_4641479-4652074:._8	all_contigs	Lamassu-Fam__LmuB_SMC_Mrr	7.2e-156	517.800	0.995	0.990	6	623
+NZ_CP033918.1_3313892-3324232:._4	all_contigs	Lamassu-Fam__LmuC_DS-30C	1e-15	55.100	0.987	0.963	2	80
+NZ_CP147988.1_142083-152681:._13	all_contigs	Lamassu-Fam__LmuC_acc_Lipase	4.6e-33	111.700	0.929	0.898	2	159
+NZ_CM148639.1_2178787-2189382:._10	all_contigs	Lamassu-Fam__LmuC_acc_Mrr	1.4e-45	152.600	0.942	0.902	9	156
+NZ_OX030782.1_4641479-4652074:._9	all_contigs	Lamassu-Fam__LmuC_acc_Mrr	2.8e-51	171.100	0.968	0.899	6	156
+NZ_CP140570.1_1595159-1605754:._2	all_contigs	Lamassu-Fam__LmuA_effector_Cap4_nuclease	3.4e-57	192.100	0.989	0.992	1	362
+NZ_CP143637.1_150213-160817:._8	all_contigs	Lamassu-Fam__LmuA_effector_Cap4_nuclease	9.6e-58	193.900	0.959	0.961	11	352
+NZ_CM148639.1_2178787-2189382:._11	all_contigs	Lamassu-Fam__LmuA_effector_Mrr	9.2e-20	69.300	0.193	0.970	1	65
+NZ_CP033918.1_3313892-3324232:._5	all_contigs	Lamassu-Fam__LmuA_effector_Mrr	2.4e-05	21.900	0.289	0.296	18	107
+NZ_OX030782.1_4641479-4652074:._10	all_contigs	Lamassu-Fam__LmuA_effector_Mrr	1.8e-100	334.600	0.970	0.925	27	359
+								
+hit_id	replicon	gene_name	hit_i_eval	hit_score	hit_profile_cov	hit_seq_cov	hit_begin_match	hit_end_match
+NZ_CM148639.1_2178787-2189382:._11	all_contigs	Lamassu-Fam__LmuA_effector_Mrr	9.2e-20	69.300	0.193	0.970	1	65
+NZ_CP033918.1_3313892-3324232:._5	all_contigs	Lamassu-Fam__LmuA_effector_Mrr	2.4e-05	21.900	0.289	0.296	18	107
+NZ_OX030782.1_4641479-4652074:._10	all_contigs	Lamassu-Fam__LmuA_effector_Mrr	1.8e-100	334.600	0.970	0.925	27	359
+NZ_CP033918.1_3313892-3324232:._3	all_contigs	Lamassu-Fam__LmuB_DS-30D	2e-121	404.200	0.998	0.988	1	571
+NZ_CP140570.1_1595159-1605754:._3	all_contigs	Lamassu-Fam__LmuB_SMC_Cap4_nuclease	5.4e-145	481.500	0.993	0.979	1	563
+NZ_CP143637.1_150213-160817:._9	all_contigs	Lamassu-Fam__LmuB_SMC_Cap4_nuclease	5.1e-137	455.200	0.988	0.996	1	566
+NZ_CP147988.1_142083-152681:._14	all_contigs	Lamassu-Fam__LmuB_SMC_Lipase	7.8e-190	629.800	0.989	0.937	9	652
+NZ_CM148686.1_2917064-2927656:._9	all_contigs	Lamassu-Fam__LmuB_SMC_Lipase	5.9e-35	118.100	0.764	0.766	2	503
+NZ_CP179925.1_611886-623561:._7	all_contigs	Lamassu-Fam__LmuB_SMC_Mrr	1.7e-05	21.100	0.210	0.224	349	473
+NZ_CP179925.1_3024398-3036073:._7	all_contigs	Lamassu-Fam__LmuB_SMC_Mrr	1.7e-05	21.100	0.210	0.224	349	473
+NC_009614.1_611886-623561:._7	all_contigs	Lamassu-Fam__LmuB_SMC_Mrr	1.7e-05	21.100	0.210	0.224	349	473
+NC_009614.1_2958343-2970018:._7	all_contigs	Lamassu-Fam__LmuB_SMC_Mrr	1.7e-05	21.100	0.210	0.224	349	473
+NZ_CM148639.1_2178787-2189382:._9	all_contigs	Lamassu-Fam__LmuB_SMC_Mrr	5.3e-144	478.600	0.993	0.982	5	613
+NZ_CP192719.1_483286-494961:._5	all_contigs	Lamassu-Fam__LmuB_SMC_Mrr	1.7e-05	21.100	0.210	0.224	349	473
+NZ_OX030782.1_4641479-4652074:._8	all_contigs	Lamassu-Fam__LmuB_SMC_Mrr	7.2e-156	517.800	0.995	0.990	6	623
+NZ_CP033918.1_3313892-3324232:._4	all_contigs	Lamassu-Fam__LmuC_DS-30C	1e-15	55.100	0.987	0.963	2	80
+NZ_CP147988.1_142083-152681:._13	all_contigs	Lamassu-Fam__LmuC_acc_Lipase	4.6e-33	111.700	0.929	0.898	2	159
+NZ_CM148639.1_2178787-2189382:._10	all_contigs	Lamassu-Fam__LmuC_acc_Mrr	1.4e-45	152.600	0.942	0.902	9	156
+NZ_OX030782.1_4641479-4652074:._9	all_contigs	Lamassu-Fam__LmuC_acc_Mrr	2.8e-51	171.100	0.968	0.899	6	156
+NZ_CP140570.1_1595159-1605754:._2	all_contigs	Lamassu-Fam__LmuA_effector_Cap4_nuclease	3.4e-57	192.100	0.989	0.992	1	362
+NZ_CP143637.1_150213-160817:._8	all_contigs	Lamassu-Fam__LmuA_effector_Cap4_nuclease	9.6e-58	193.900	0.959	0.961	11	352
+NZ_CP147988.1_142083-152681:._12	all_contigs	Lamassu-Fam__LmuA_effector_Lipase	1.5e-81	272.300	0.968	0.961	10	401
+								
+								
+hit_id	replicon	gene_name	hit_i_eval	hit_score	hit_profile_cov	hit_seq_cov	hit_begin_match	hit_end_match
+NZ_OZ245806.1_1584225-1594832:._14	all_contigs	Eleos__LeoA	2.7e-09	34.100	0.292	0.364	170	327
+NZ_OZ245806.1_1584225-1594832:._12	all_contigs	Eleos__LeoBC	5.2e-08	29.900	0.191	0.412	11	131
+								
+								
+hit_id	replicon	gene_name	hit_i_eval	hit_score	hit_profile_cov	hit_seq_cov	hit_begin_match	hit_end_match
+NZ_CP081914.1_9325-19917:._11	all_contigs	ardc	9.9e-56	186.600	0.851	0.914	13	320
+NZ_CP143943.1_29742-40334:._8	all_contigs	ardc	6.9e-56	187.100	0.851	0.914	13	320
+NZ_CP054001.1_41085-51677:._10	all_contigs	ardc	9.9e-56	186.600	0.851	0.914	13	320
+NZ_CP018939.1_26094-36686:._11	all_contigs	ardc	3.8e-41	138.700	0.665	0.936	1	247
+NZ_CP018939.1_57218-67810:._10	all_contigs	ardc	1.1e-55	186.500	0.851	0.914	13	320
+NZ_CP103239.1_14058-24650:._11	all_contigs	ardc	9.9e-56	186.600	0.851	0.914	13	320
+NZ_CP041397.1_21313-31905:._11	all_contigs	ardc	9.9e-56	186.600	0.851	0.914	13	320
+NZ_CP033929.1_1742755-1753359:._9	all_contigs	ardc	2.6e-63	211.600	0.823	0.906	27	315
+NZ_CP081919.1_13891-24483:._8	all_contigs	ardc	9.9e-56	186.600	0.851	0.914	13	320
+NZ_CP036556.1_1-10022:._10	all_contigs	ardc	9.9e-56	186.600	0.851	0.914	13	320
+NZ_CP072256.1_33946-44538:._8	all_contigs	ardc	6.9e-56	187.100	0.851	0.914	13	320
+NZ_CP103142.1_50344-60936:._12	all_contigs	ardc	9.9e-56	186.600	0.851	0.914	13	320
+NZ_CP072225.1_43770-54362:._8	all_contigs	ardc	9.9e-56	186.600	0.851	0.914	13	320
+NZ_CP041231.1_28399-38991:._11	all_contigs	ardc	6.9e-56	187.100	0.851	0.914	13	320
+NZ_CP081921.1_7444-18036:._9	all_contigs	ardc	9.9e-56	186.600	0.851	0.914	13	320
+NZ_CP045613.1_16258-26850:._8	all_contigs	ardc	9.9e-56	186.600	0.851	0.914	13	320
+NZ_CP083624.1_1-6607:._8	all_contigs	ardc	9.9e-56	186.600	0.851	0.914	13	320
+NC_006873.1_1-5722:._2	all_contigs	ardc	9.9e-56	186.600	0.851	0.914	13	320
+								
+								
+hit_id	replicon	gene_name	hit_i_eval	hit_score	hit_profile_cov	hit_seq_cov	hit_begin_match	hit_end_match
+NZ_CM148646.1_2068858-2079456:._9	all_contigs	AbiH__AbiH	2.8e-19	67.700	0.662	0.725	15	201
+NZ_OX596083.1_2220108-2230706:._1	all_contigs	AbiH__AbiH	3.8e-33	113.100	0.989	0.845	4	329
+NZ_CP114285.2_2034346-2044935:._9	all_contigs	AbiH__AbiH	5.5e-24	83.100	0.977	0.875	10	386
+								
+								
+hit_id	replicon	gene_name	hit_i_eval	hit_score	hit_profile_cov	hit_seq_cov	hit_begin_match	hit_end_match
+NZ_CP073240.1_22748-33310:._8	all_contigs	Retron__RT_Tot_10	4.2e-67	224.200	0.738	0.861	9	256
+NZ_CP117880.1_3051631-3062205:._4	all_contigs	Retron__RT_Tot_10	1.2e-69	232.600	0.760	0.892	3	258
+NZ_JBQSUP010000001.1_5071-14507:._8	all_contigs	Retron__RT_Tot_10	1.1e-32	111.200	0.366	0.716	15	130
+NZ_JBQSUP010000001.1_5071-14507:._10	all_contigs	Retron__RT_Tot_10	1.2e-32	111.000	0.366	0.863	8	139
+NZ_CP103120.1_40675-51270:._7	all_contigs	Retron_I_A__HNH_TIGR02646	4.7e-40	135.300	0.863	0.956	1	197
+NZ_CP103120.1_40675-51270:._6	all_contigs	Septu__PtuA	2.4e-109	364.600	0.972	0.995	1	415
+								
+hit_id	replicon	gene_name	hit_i_eval	hit_score	hit_profile_cov	hit_seq_cov	hit_begin_match	hit_end_match
+NZ_CP103120.1_40675-51270:._7	all_contigs	Retron_I_A__HNH_TIGR02646	4.7e-40	135.300	0.863	0.956	1	197
+NZ_CP103120.1_40675-51270:._6	all_contigs	Septu__PtuA	2.4e-109	364.600	0.972	0.995	1	415
+NZ_CP119604.1_57801-68393:._2	all_contigs	Septu__PtuA_2	1.4e-121	404.200	0.987	0.903	63	660
+NZ_CP073240.1_22748-33310:._8	all_contigs	Retron__RT_Tot_10	4.2e-67	224.200	0.738	0.861	9	256
+NZ_CP117880.1_3051631-3062205:._4	all_contigs	Retron__RT_Tot_10	1.2e-69	232.600	0.760	0.892	3	258
+NZ_JBQSUP010000001.1_5071-14507:._8	all_contigs	Retron__RT_Tot_10	1.1e-32	111.200	0.366	0.716	15	130
+NZ_JBQSUP010000001.1_5071-14507:._10	all_contigs	Retron__RT_Tot_10	1.2e-32	111.000	0.366	0.863	8	139
+								
+								
+hit_id	replicon	gene_name	hit_i_eval	hit_score	hit_profile_cov	hit_seq_cov	hit_begin_match	hit_end_match
+NZ_CP033929.1_1742755-1753359:._1	all_contigs	AbiAlpha__AbiAlpha	3.3e-22	76.900	0.684	0.534	64	190
+								
+								
+hit_id	replicon	gene_name	hit_i_eval	hit_score	hit_profile_cov	hit_seq_cov	hit_begin_match	hit_end_match
+NZ_CP050063.1_5052396-5062973:._4	all_contigs	Paris_I_merge__AAA_15_DUF4435	4e-27	92.600	0.343	0.399	226	458
+								
+								
+hit_id	replicon	gene_name	hit_i_eval	hit_score	hit_profile_cov	hit_seq_cov	hit_begin_match	hit_end_match
+NZ_OZ257252.1_2008577-2019169:._4	all_contigs	Retron_VII_2__DUF3800	2.1e-08	32.300	1.000	0.481	146	324
+NZ_CP033918.1_3313892-3324232:._1	all_contigs	Retron_VII_2__DUF3800	3.3e-11	41.400	0.991	0.772	7	179
+NZ_CP073240.1_22748-33310:._8	all_contigs	Retron__RT_Tot_10	4.2e-67	224.200	0.738	0.861	9	256
+NZ_CP117880.1_3051631-3062205:._4	all_contigs	Retron__RT_Tot_10	1.2e-69	232.600	0.760	0.892	3	258
+NZ_JBQSUP010000001.1_5071-14507:._8	all_contigs	Retron__RT_Tot_10	1.1e-32	111.200	0.366	0.716	15	130
+NZ_JBQSUP010000001.1_5071-14507:._10	all_contigs	Retron__RT_Tot_10	1.2e-32	111.000	0.366	0.863	8	139
+								
+								
+hit_id	replicon	gene_name	hit_i_eval	hit_score	hit_profile_cov	hit_seq_cov	hit_begin_match	hit_end_match
+NZ_OZ409872.1_1033845-1044446:._12	all_contigs	Retron_III__PRTase	1.5e-09	35.200	0.912	0.863	38	302
+NZ_CP073240.1_22748-33310:._8	all_contigs	Retron__RT_Tot_10	4.2e-67	224.200	0.738	0.861	9	256
+NZ_CP117880.1_3051631-3062205:._4	all_contigs	Retron__RT_Tot_10	1.2e-69	232.600	0.760	0.892	3	258
+NZ_JBQSUP010000001.1_5071-14507:._8	all_contigs	Retron__RT_Tot_10	1.1e-32	111.200	0.366	0.716	15	130
+NZ_JBQSUP010000001.1_5071-14507:._10	all_contigs	Retron__RT_Tot_10	1.2e-32	111.000	0.366	0.863	8	139
+								
+								
+hit_id	replicon	gene_name	hit_i_eval	hit_score	hit_profile_cov	hit_seq_cov	hit_begin_match	hit_end_match
+NZ_CP073240.1_22748-33310:._9	all_contigs	Retron_VI__HTH	2e-26	89.500	0.939	0.949	3	96
+NZ_CP117880.1_3051631-3062205:._5	all_contigs	Retron_VI__HTH	6.9e-23	78.100	0.899	0.938	2	91
+NZ_JBQSUP010000001.1_5071-14507:._11	all_contigs	Retron_VI__HTH	3.6e-26	88.600	0.929	0.939	3	95
+NZ_CP073240.1_22748-33310:._8	all_contigs	Retron__RT_Tot_10	4.2e-67	224.200	0.738	0.861	9	256
+NZ_CP117880.1_3051631-3062205:._4	all_contigs	Retron__RT_Tot_10	1.2e-69	232.600	0.760	0.892	3	258
+NZ_JBQSUP010000001.1_5071-14507:._8	all_contigs	Retron__RT_Tot_10	1.1e-32	111.200	0.366	0.716	15	130
+NZ_JBQSUP010000001.1_5071-14507:._10	all_contigs	Retron__RT_Tot_10	1.2e-32	111.000	0.366	0.863	8	139
+								
+								
+hit_id	replicon	gene_name	hit_i_eval	hit_score	hit_profile_cov	hit_seq_cov	hit_begin_match	hit_end_match
+NZ_CP198980.1_1327920-1338557:._9	all_contigs	PD-T7-2__PD-T7-2_A	4.9e-17	59.400	0.342	0.769	8	183
+NZ_CP023010.2_126289-136926:._9	all_contigs	PD-T7-2__PD-T7-2_A	4.9e-17	59.400	0.342	0.769	8	183
+NZ_CP198981.1_3845293-3855930:._1	all_contigs	PD-T7-2__PD-T7-2_A	5.7e-17	59.200	0.340	0.768	8	182
+NZ_CP198979.1_334542-345179:._9	all_contigs	PD-T7-2__PD-T7-2_A	4.9e-17	59.400	0.342	0.769	8	183
+NZ_CP016373.1_1241352-1251989:._9	all_contigs	PD-T7-2__PD-T7-2_A	4.9e-17	59.400	0.342	0.769	8	183
+NZ_CP069277.1_3007011-3017648:._1	all_contigs	PD-T7-2__PD-T7-2_A	4.9e-17	59.400	0.342	0.769	8	183
+NZ_OX596081.1_1428450-1439087:._1	all_contigs	PD-T7-2__PD-T7-2_A	7.3e-17	58.900	0.334	0.765	8	180
+NZ_OX596082.1_1428453-1439090:._1	all_contigs	PD-T7-2__PD-T7-2_A	7.3e-17	58.900	0.334	0.765	8	180
+NZ_CP198980.1_1327920-1338557:._8	all_contigs	PD-T7-2__PD-T7-2_B	6.7e-102	339.200	0.966	0.986	4	618
+NZ_CP023010.2_126289-136926:._8	all_contigs	PD-T7-2__PD-T7-2_B	6.7e-102	339.200	0.966	0.986	4	618
+NZ_CP198981.1_3845293-3855930:._2	all_contigs	PD-T7-2__PD-T7-2_B	6.7e-102	339.200	0.966	0.986	4	618
+NZ_CP198979.1_334542-345179:._8	all_contigs	PD-T7-2__PD-T7-2_B	6.7e-102	339.200	0.966	0.986	4	618
+NZ_CP016373.1_1241352-1251989:._8	all_contigs	PD-T7-2__PD-T7-2_B	6.7e-102	339.200	0.966	0.986	4	618
+NZ_CP069277.1_3007011-3017648:._2	all_contigs	PD-T7-2__PD-T7-2_B	6.7e-102	339.200	0.966	0.986	4	618
+NZ_OX596081.1_1428450-1439087:._2	all_contigs	PD-T7-2__PD-T7-2_B	6.7e-102	339.200	0.966	0.986	4	618
+NZ_OX596082.1_1428453-1439090:._2	all_contigs	PD-T7-2__PD-T7-2_B	6.7e-102	339.200	0.966	0.986	4	618
+								
+								
+hit_id	replicon	gene_name	hit_i_eval	hit_score	hit_profile_cov	hit_seq_cov	hit_begin_match	hit_end_match
+NZ_CP117880.1_3051631-3062205:._3	all_contigs	AbiD__AbiD	1.6e-81	271.700	0.935	0.933	18	325
+								
+								
+hit_id	replicon	gene_name	hit_i_eval	hit_score	hit_profile_cov	hit_seq_cov	hit_begin_match	hit_end_match
+NZ_OZ245719.1_5125857-5136431:._11	all_contigs	ardu	4e-59	197.400	0.835	0.978	2	176
+								
+								
+hit_id	replicon	gene_name	hit_i_eval	hit_score	hit_profile_cov	hit_seq_cov	hit_begin_match	hit_end_match
+NZ_CP119421.1_5019560-5030119:._3	all_contigs	Hachiman__HamA_1	5.3e-25	86.100	0.828	0.897	27	278
+NZ_CP119421.1_5019560-5030119:._2	all_contigs	Hachiman__HamB	3.8e-90	301.000	0.661	0.735	28	564
+NZ_CP032318.1_36941-47167:._1	all_contigs	Hachiman__HamB	2.1e-25	86.700	0.171	0.319	296	462
+								
+								
+hit_id	replicon	gene_name	hit_i_eval	hit_score	hit_profile_cov	hit_seq_cov	hit_begin_match	hit_end_match
+NZ_CP119421.1_5019560-5030119:._3	all_contigs	Hachiman__HamA_1	5.3e-25	86.100	0.828	0.897	27	278
+NZ_CP119421.1_5019560-5030119:._2	all_contigs	Hachiman__HamB	3.8e-90	301.000	0.661	0.735	28	564
+NZ_CP032318.1_36941-47167:._1	all_contigs	Hachiman__HamB	2.1e-25	86.700	0.171	0.319	296	462
+								
+								
+hit_id	replicon	gene_name	hit_i_eval	hit_score	hit_profile_cov	hit_seq_cov	hit_begin_match	hit_end_match
+NZ_CP044017.1_1-9654:._8	all_contigs	RloC__RloC	6.6e-56	187.900	0.540	0.965	13	452
+								

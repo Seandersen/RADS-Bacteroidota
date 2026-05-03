@@ -1,0 +1,14 @@
+{
+  "total_input_bases": 8226795726,
+  "total_input_mb": 8226.8,
+  "blast_hits": 290,
+  "hits_per_mb": 0.035,
+  "defense_systems": 37,
+  "contigs_analyzed": 278,
+  "discovery_rate_per_contig": 0.133,
+  "total_genomes": 2035,
+  "discovery_rate_per_genome": 0.018,
+  "query_file": "resources/EFB0058.fa",
+  "query_name": "EFB_0058",
+  "sample_name": "efb0058_bacteroidota_withbinom_slurm"
+}
