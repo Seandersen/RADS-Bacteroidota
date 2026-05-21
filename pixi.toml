@@ -11,6 +11,8 @@ python = ">=3.11,<3.13"
 [feature.dashboard.dependencies]
 shiny = ">=0.6"
 plotly = ">=5.0"
+numpy = ">=1.24"
+pandas = ">=1.5"
 polars = ">=0.20"
 pyarrow = ">=14.0"
 
