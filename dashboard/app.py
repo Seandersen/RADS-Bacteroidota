@@ -273,12 +273,12 @@ app_ui = ui.page_sidebar(
                     ),
                     ui.div(
                         ui.value_box(
-                            "Defense Systems",
+                            "Defense Genes",
                             ui.output_text("stat_defense_systems"),
                             showcase=ui.HTML('<i class="fa-solid fa-shield" style="font-size: 2rem;"></i>'),
                             theme="danger",
                         ),
-                        title="Count of unique defense system IDs from DefenseFinder",
+                        title="Total DefenseFinder genes identified",
                     ),
                     ui.div(
                         ui.value_box(
@@ -763,17 +763,9 @@ def server(input, output, session):
 
     @render.text
     def stat_defense_systems():
-        # First try to count from actual DefenseFinder data
-        df = defensefinder_systems()
-        if df is not None and len(df) > 0:
-            # Count unique system IDs
-            if "sys_id" in df.columns:
-                return str(df["sys_id"].n_unique())
-            return str(len(df))
-        # Fallback to metrics file
-        metrics = pipeline_metrics()
-        if metrics and metrics.get("defense_systems", 0) > 0:
-            return str(metrics.get("defense_systems", 0))
+        genes = defensefinder_genes()
+        if genes is not None and len(genes) > 0:
+            return str(len(genes))
         return "0"
 
     @render.text
