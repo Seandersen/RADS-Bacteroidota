@@ -42,7 +42,7 @@ git clone https://github.com/Seandersen/RADS-Bacteroidota.git
 cd RADS-Bacteroidota
 conda env create -f environment.yaml
 conda activate rads
-python -m shiny run dashboard/app.py --host 0.0.0.0 --port 8000
+python -m shiny run dashboard/app.py --port 8000
 ```
 
 Open **http://localhost:8000** in your browser.
