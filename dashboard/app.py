@@ -221,8 +221,6 @@ app_ui = ui.page_sidebar(
         ui.download_button("download_blast", "Download BLAST Results"),
         width=280,
     ),
-    ui.HTML(CUSTOM_CSS),
-    ui.tags.script(src="https://cdn.plot.ly/plotly-2.35.2.min.js"),
     ui.navset_card_tab(
         ui.nav_panel(
             "Summary",
@@ -612,6 +610,14 @@ app_ui = ui.page_sidebar(
     fillable=True,
 )
 
+# Wrap with head content for CSS
+app_ui = ui.page_fluid(
+    ui.tags.head(
+        ui.HTML(CUSTOM_CSS),
+        ui.HTML('<script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>'),
+    ),
+    app_ui,
+)
 
 
 def server(input, output, session):
