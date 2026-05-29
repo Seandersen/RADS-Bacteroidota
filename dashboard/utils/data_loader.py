@@ -279,10 +279,17 @@ _CATEGORY_BY_TYPE: dict[str, str] = {
     "RnlAB": "Toxin-antitoxin",
     "RosmerTA": "Toxin-antitoxin",
     "ShosTA": "Toxin-antitoxin",
+    "SanaTA": "Toxin-antitoxin",
     "PfiAT": "Toxin-antitoxin",
     "PsyrTA": "Toxin-antitoxin",
     "SoFIC": "Toxin-antitoxin",
     "MqsRAC": "Toxin-antitoxin",
+
+    # Anti-defense
+    "Anti_RM": "Anti-defense",
+    "ardc": "Anti-defense",
+    "arda_ardu": "Anti-defense",
+    "ADF": "Anti-defense",
 
     # Abortive infection
     "Abi": "Abortive infection",
@@ -465,43 +472,50 @@ def load_defensefinder_genes(results_dir: str) -> Optional[pl.DataFrame]:
                 "gene_name": [],
                 "type": [],
                 "subtype": [],
+                "antiphage_category": [],
             })
 
-        # Read file manually to handle comments and multiple headers
+        # Read file manually to handle comments and multiple headers.
+        # Deduplicate by hit_id so each unique protein is counted once.
         rows = []
+        seen_hits: set = set()
         with open(genes_file) as f:
             for line in f:
                 line = line.strip()
-                # Skip empty lines and comments
                 if not line or line.startswith("#"):
                     continue
-                # Skip header lines
                 if line.startswith("replicon\t") or line.startswith("hit_id\t"):
                     continue
 
                 parts = line.split("\t")
-                if len(parts) >= 3:
-                    # Extract type and subtype from model_fqn if present
-                    model_fqn = parts[4] if len(parts) > 4 else ""
-                    fqn_parts = model_fqn.split("/")
+                if len(parts) < 3:
+                    continue
 
-                    if len(fqn_parts) >= 2:
-                        subtype = fqn_parts[-1] if fqn_parts[-1] else "Unknown"
-                        if len(fqn_parts) >= 3:
-                            system_type = fqn_parts[-2]
-                        else:
-                            system_type = subtype
-                    else:
-                        system_type = "Unknown"
-                        subtype = "Unknown"
+                hit_id = parts[1] if len(parts) > 1 else parts[0]
+                if hit_id == "hit_id":
+                    continue
+                if hit_id in seen_hits:
+                    continue
+                seen_hits.add(hit_id)
 
-                    rows.append({
-                        "hit_id": parts[1] if len(parts) > 1 else parts[0],
-                        "gene_name": parts[2] if len(parts) > 2 else "",
-                        "type": system_type,
-                        "subtype": subtype,
-                        "sys_id": parts[5] if len(parts) > 5 else "",
-                    })
+                model_fqn = parts[4] if len(parts) > 4 else ""
+                fqn_parts = model_fqn.split("/")
+
+                if len(fqn_parts) >= 2:
+                    subtype = fqn_parts[-1] if fqn_parts[-1] else "Unknown"
+                    system_type = fqn_parts[-2] if len(fqn_parts) >= 3 else subtype
+                else:
+                    system_type = "Unknown"
+                    subtype = "Unknown"
+
+                rows.append({
+                    "hit_id": hit_id,
+                    "gene_name": parts[2] if len(parts) > 2 else "",
+                    "type": system_type,
+                    "subtype": subtype,
+                    "sys_id": parts[5] if len(parts) > 5 else "",
+                    "antiphage_category": get_antiphage_category(system_type, subtype),
+                })
 
         if not rows:
             return pl.DataFrame({
@@ -509,6 +523,7 @@ def load_defensefinder_genes(results_dir: str) -> Optional[pl.DataFrame]:
                 "gene_name": [],
                 "type": [],
                 "subtype": [],
+                "antiphage_category": [],
             })
 
         return pl.DataFrame(rows)

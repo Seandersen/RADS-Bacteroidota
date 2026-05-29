@@ -546,14 +546,15 @@ app_ui = ui.page_sidebar(
                             "Select Category:",
                             choices=[
                                 "All",
-                                "Abortive infection",
-                                "CBASS",
-                                "Nucleic acid restriction",
-                                "CRISPR-Cas",
                                 "Toxin-antitoxin",
-                                "Retrons",
-                                "tRNA degradation",
+                                "Abortive infection",
+                                "Nucleic acid restriction",
                                 "Unknown mechanism",
+                                "tRNA degradation",
+                                "CBASS",
+                                "Anti-defense",
+                                "Retrons",
+                                "CRISPR-Cas",
                             ],
                             selected="All",
                         ),
@@ -1386,33 +1387,28 @@ def server(input, output, session):
 
     # Colour palette for the 8 fixed antiphage categories
     CATEGORY_COLORS = {
-        "Abortive infection":       "#2d4a4a",
-        "CBASS":                    "#3d6b6b",
+        "Toxin-antitoxin":          "#2d4a4a",
+        "Abortive infection":       "#3d6b6b",
         "Nucleic acid restriction": "#4a7d74",
-        "CRISPR-Cas":               "#5a9090",
-        "Toxin-antitoxin":          "#6b9e96",
-        "Retrons":                  "#7aaeae",
-        "tRNA degradation":         "#8fb3b3",
-        "Unknown mechanism":        "#a8c4c4",
+        "Unknown mechanism":        "#5a9090",
+        "tRNA degradation":         "#6b9e96",
+        "CBASS":                    "#7aaeae",
+        "Anti-defense":             "#8fb3b3",
+        "Retrons":                  "#a8c4c4",
+        "CRISPR-Cas":               "#c0d8d8",
     }
     CATEGORY_ORDER = list(CATEGORY_COLORS.keys())
 
     @render.ui
     def defense_category_plot():
-        df = defensefinder_systems()
+        df = defensefinder_genes()
         if df is None or len(df) == 0:
-            return ui.p("No defense systems found. Run pipeline with DefenseFinder enabled.")
+            return ui.p("No defense genes found. Run pipeline with DefenseFinder enabled.")
         if "antiphage_category" not in df.columns:
             return ui.p("Category data unavailable.")
 
-        # Deduplicate on sys_id so each system counts once
-        if "sys_id" in df.columns:
-            deduped = df.unique(subset=["sys_id"])
-        else:
-            deduped = df
-
         counts = (
-            deduped.group_by("antiphage_category")
+            df.group_by("antiphage_category")
             .len()
             .sort("len", descending=True)
         )
@@ -1426,11 +1422,11 @@ def server(input, output, session):
             x=pdf["antiphage_category"],
             y=pdf["len"],
             marker_color=pdf["color"],
-            hovertemplate="<b>%{x}</b><br>Systems: %{y}<extra></extra>",
+            hovertemplate="<b>%{x}</b><br>Genes: %{y}<extra></extra>",
         ))
         fig.update_layout(
             xaxis_title="Antiphage Category",
-            yaxis_title="Number of Defense Systems",
+            yaxis_title="Number of Defense Genes",
             xaxis_tickangle=-30,
             height=420,
             margin=dict(b=120),
@@ -1441,20 +1437,14 @@ def server(input, output, session):
 
     @render.ui
     def defense_category_sunburst():
-        df = defensefinder_systems()
+        df = defensefinder_genes()
         if df is None or len(df) == 0:
-            return ui.p("No defense systems found.")
+            return ui.p("No defense genes found.")
         if "antiphage_category" not in df.columns or "type" not in df.columns:
             return ui.p("Category data unavailable.")
 
-        # Deduplicate on sys_id
-        if "sys_id" in df.columns:
-            deduped = df.unique(subset=["sys_id"])
-        else:
-            deduped = df
-
         counts = (
-            deduped.group_by(["antiphage_category", "type"])
+            df.group_by(["antiphage_category", "type"])
             .len()
             .sort("len", descending=True)
         )
@@ -1469,7 +1459,7 @@ def server(input, output, session):
             hover_data={"len": True},
         )
         fig.update_traces(
-            hovertemplate="<b>%{label}</b><br>Count: %{value}<extra></extra>",
+            hovertemplate="<b>%{label}</b><br>Genes: %{value}<extra></extra>",
             insidetextorientation="radial",
         )
         fig.update_layout(
@@ -1480,43 +1470,34 @@ def server(input, output, session):
 
     @render.ui
     def defense_category_drilldown():
-        df = defensefinder_systems()
+        df = defensefinder_genes()
         if df is None or len(df) == 0:
-            return ui.p("No defense systems found.")
+            return ui.p("No defense genes found.")
         if "antiphage_category" not in df.columns:
             return ui.p("Category data unavailable.")
 
-        # Deduplicate on sys_id
-        if "sys_id" in df.columns:
-            deduped = df.unique(subset=["sys_id"])
-        else:
-            deduped = df
-
         selected = input.defense_category_select()
-        if selected != "All":
-            deduped = deduped.filter(pl.col("antiphage_category") == selected)
+        filtered = df.filter(pl.col("antiphage_category") == selected) if selected != "All" else df
 
-        if len(deduped) == 0:
-            return ui.p(f"No systems found for category: {selected}")
+        if len(filtered) == 0:
+            return ui.p(f"No genes found for category: {selected}")
 
-        # Group by type (system family)
         counts = (
-            deduped.group_by("type")
+            filtered.group_by("type")
             .len()
             .sort("len", descending=True)
         )
 
         pdf = counts.to_pandas()
 
-        # Pick a single colour for the selected category, cycle through palette otherwise
         if selected != "All":
             bar_color = CATEGORY_COLORS.get(selected, CHART_COLORS["secondary"])
             colors = [bar_color] * len(pdf)
         else:
             colors = [
                 CATEGORY_COLORS.get(
-                    deduped.filter(pl.col("type") == t)["antiphage_category"][0]
-                    if len(deduped.filter(pl.col("type") == t)) > 0 else "",
+                    filtered.filter(pl.col("type") == t)["antiphage_category"][0]
+                    if len(filtered.filter(pl.col("type") == t)) > 0 else "",
                     CHART_COLORS["secondary"]
                 )
                 for t in pdf["type"]
@@ -1527,10 +1508,10 @@ def server(input, output, session):
             x=pdf["len"],
             orientation="h",
             marker_color=colors,
-            hovertemplate="<b>%{y}</b><br>Systems: %{x}<extra></extra>",
+            hovertemplate="<b>%{y}</b><br>Genes: %{x}<extra></extra>",
         ))
         fig.update_layout(
-            xaxis_title="Number of Defense Systems",
+            xaxis_title="Number of Defense Genes",
             yaxis_title="System Type",
             yaxis={"categoryorder": "total ascending"},
             height=max(350, len(pdf) * 24),
@@ -1541,9 +1522,9 @@ def server(input, output, session):
 
     @render.ui
     def defense_system_type_plot():
-        df = defensefinder_systems()
+        df = defensefinder_genes()
         if df is None or len(df) == 0:
-            return ui.p("No defense systems found. Run pipeline with DefenseFinder enabled.")
+            return ui.p("No defense genes found. Run pipeline with DefenseFinder enabled.")
 
         if "type" not in df.columns:
             return ui.p("No defense system type data found")
@@ -1557,8 +1538,8 @@ def server(input, output, session):
             counts.to_pandas(),
             x="type",
             y="len",
-            labels={"type": "Defense System Type", "len": "Count"},
-            title="Defense Systems by Type",
+            labels={"type": "Defense System Type", "len": "Genes"},
+            title="Defense Genes by Type",
             color_discrete_sequence=[CHART_COLORS["primary"]],
         )
         fig.update_layout(
@@ -1571,9 +1552,9 @@ def server(input, output, session):
 
     @render.ui
     def defense_subtype_plot():
-        df = defensefinder_systems()
+        df = defensefinder_genes()
         if df is None or len(df) == 0:
-            return ui.p("No defense systems found")
+            return ui.p("No defense genes found")
 
         if "subtype" not in df.columns:
             return ui.p("No subtype data found")
@@ -1588,8 +1569,8 @@ def server(input, output, session):
             x="len",
             y="subtype",
             orientation="h",
-            labels={"len": "Count", "subtype": "Subtype"},
-            title="Top Defense System Subtypes",
+            labels={"len": "Genes", "subtype": "Subtype"},
+            title="Top Defense Gene Subtypes",
             color_discrete_sequence=[CHART_COLORS["secondary"]],
         )
         fig.update_layout(
