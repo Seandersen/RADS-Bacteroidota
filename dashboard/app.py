@@ -787,25 +787,38 @@ def server(input, output, session):
 
     @render.text
     def stat_discovery_per_contig():
-        # Calculate from actual data: defense systems per contig analyzed
-        df = defensefinder_systems()
         stats = summary_stats()
         contigs = stats.get("total_contigs", 0)
+        if contigs == 0:
+            return "0.000"
 
-        if df is not None and len(df) > 0 and contigs > 0:
-            # Count unique systems
-            if "sys_id" in df.columns:
-                unique_systems = df["sys_id"].n_unique()
-            else:
-                unique_systems = len(df)
-            rate = unique_systems / contigs
-            return f"{rate:.3f}"
+        # Deduplicated DefenseFinder genes (matches defense_plots.py methodology)
+        genes_df = defensefinder_genes()
+        n_genes = len(genes_df) if genes_df is not None else 0
+        existing_ids = (
+            set(genes_df["hit_id"].to_list())
+            if genes_df is not None and "hit_id" in genes_df.columns
+            else set()
+        )
 
-        # Fallback to metrics file
-        metrics = pipeline_metrics()
-        if metrics and metrics.get('discovery_rate_per_contig', 0) > 0:
-            return f"{metrics.get('discovery_rate_per_contig', 0):.3f}"
-        return "0.000"
+        # Add InterPro Type IV hits not already in DefenseFinder:
+        # DUF262 (PF03235) and Type IV Mrr (IPR007560)
+        ips_df = interproscan_data()
+        n_typeiv = 0
+        if ips_df is not None and len(ips_df) > 0:
+            required_cols = {"status", "signature_accession", "interpro_accession", "protein_accession"}
+            if required_cols.issubset(set(ips_df.columns)):
+                type4_mask = (
+                    (ips_df["status"] == "T") &
+                    (
+                        (ips_df["signature_accession"] == "PF03235") |
+                        (ips_df["interpro_accession"] == "IPR007560")
+                    )
+                )
+                typeiv_ids = set(ips_df.filter(type4_mask)["protein_accession"].unique().to_list())
+                n_typeiv = len(typeiv_ids - existing_ids)
+
+        return f"{(n_genes + n_typeiv) / contigs:.3f}"
 
     @render.text
     def stat_discovery_per_genome():
